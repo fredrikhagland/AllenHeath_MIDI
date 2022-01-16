@@ -1,0 +1,27 @@
+N = Midi Chanel (1-12 / 0-B)
+SS = Scene Number (Selected Scene)
+00/01/02/03 (red text) = Bank Number
+CH = Channel
+LV = Fader Level -inf to +10dB (00-7F)
+
+MV = Major Version
+mV = Minor Version
+
+UserProfile = Profile number in dLive (00 - 1F)
+UserPassword = dLive Profile password
+
+
+
+
+MIDI PREFIXES:
+Note Off - 0x8
+Note On - 0x9
+Poly Pressure - 0xA
+Control Change - 0xB
+Program Change - 0xC
+Channel Pressure - 0xD
+Tune Request - 0xF6
+Start - 0xFA
+Continue - 0xFB
+Stopp - 0xFC
+Reset - 0xFF
